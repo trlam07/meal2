@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.app-container{
+  width: 80%;
+  margin: 0 auto;
+}
+.meal-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  gap: 100px
+}
+.meal-item{
+  border: 1px solid gray;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.new-item-footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
